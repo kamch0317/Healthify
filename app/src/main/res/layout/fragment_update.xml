@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/updatetitle"
+        android:layout_width="131dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/titledivider"
+        android:layout_alignBottom="@+id/titledivider"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="-36dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/Workout_Page"
+        android:textAllCaps="false"
+        android:textColor="#272727"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/titledivider"
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_alignBottom="@+id/update_wdate"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="87dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/update_wdate"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="581dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/update_wtime"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="507dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/time"
+        android:inputType="time"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <TextView
+        android:id="@+id/update_workout_name_text"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="445dp"
+        android:text="@string/workout"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/update_spinner23"
+        android:layout_width="355dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="381dp"
+        android:contentDescription="@string/spinner"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/update_slider"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="271dp"
+        android:autofillHints="sets"
+        android:contentDescription="@string/slider"
+        android:stepSize="1"
+        android:value="0"
+        android:valueFrom="0"
+        android:valueTo="15"
+        app:labelBehavior="floating" />
+
+    <TextView
+        android:id="@+id/update_slider_value"
+        android:layout_width="54dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="269dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/updatebutton"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/update" />
+
+    <TextView
+        android:id="@+id/update_workout_reps"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="334dp"
+        android:text="@string/reps"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/update_cancelbutton"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="100dp"
+        android:layout_toStartOf="@+id/updatebutton"
+        android:layout_toEndOf="@+id/updatebutton"
+        android:text="@android:string/cancel" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1012086156702",
+    "firebase_url": "https://kiah-bf795-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kiah-bf795",
+    "storage_bucket": "kiah-bf795.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012086156702:android:b986392f481061cd253a8f",
+        "android_client_info": {
+          "package_name": "com.example.Healthify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012086156702-jjc7c1e4vggpf0hto6920i3ohmsghtd0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Healthify",
+            "certificate_hash": "b25af79c99d8dc483cc76660c28cc499bb1401f2"
+          }
+        },
+        {
+          "client_id": "1012086156702-uq1162qh86asg9hi9o8m7a3hv61r7q9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Healthify",
+            "certificate_hash": "15725f45b7839a92883dd632112bd8605fa93a9d"
+          }
+        },
+        {
+          "client_id": "1012086156702-5fl6dp8bqtdi0of08ibtu78nv99lk09h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfUL79NQXql-3YEr8nPv3ZxV-FM3ngGR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012086156702-5fl6dp8bqtdi0of08ibtu78nv99lk09h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

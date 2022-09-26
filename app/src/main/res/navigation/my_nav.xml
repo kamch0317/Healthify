@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="Healthify.ListFragment"
+        android:label="fragment_list2"
+        tools:layout="@layout/fragment_list2">
+        <action
+            android:id="@+id/action_listFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_updateFragment2"
+            app:destination="@id/updateFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="Healthify.AddFragment"
+        android:label="fragment_add2"
+        tools:layout="@layout/fragment_add2">
+        <action
+            android:id="@+id/action_addFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateFragment2"
+        android:name="Healthify.UpdateFragment"
+        android:label="Update"
+        tools:layout="@layout/fragment_update">
+        <action
+            android:id="@+id/action_updateFragment2_to_listFragment"
+            app:destination="@id/listFragment" />
+        <argument
+            android:name="currentWorkout"
+            app:argType="Healthify.model.Workout2" />
+    </fragment>
+</navigation>

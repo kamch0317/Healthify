@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Healthify</string>
+    <string name="login_button">Login</string>
+    <string name="sign_up_buttom">Sign-Up</string>
+    <string name="logo">TODO</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="submit_button">Submit</string>
+    <string name="siguppic">TODO</string>
+    <string name="login_password">Password</string>
+    <string name="loginpic">TODO</string>
+    <string name="login_button2">Login</string>
+    <string name="loginpic2">TODO</string>
+    <string name="login_name">UserName</string>
+    <string name="loginpic3">TODO</string>
+    <string name="bg">TODO</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="bgsignup">TODO</string>
+    <string name="settingbut" />
+    <string name="contactuser">TextView</string>
+    <string name="username_user">Textview</string>
+    <string name="user_age_user">TextView</string>
+    <string name="user_pro">TODO</string>
+    <string name="user_bg">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Workout_Page">WorkoutPage</string>
+    <string name="workout_details">Workout Details</string>
+    <string name="workout_pics">Workout_pics</string>
+    <string name="workout_descrip">Hi</string>
+    <string name="workout_pic_details">TODO</string>
+    <string name="workout_nm" />
+    <string name="workout_learn" />
+    <string name="tutorial">Tutorial</string>
+    <string name="cover" />
+    <string name="title_place_holder" />
+    <string name="author_placeholder" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="button_add" />
+    <string name="workout_name">Workout Name</string>
+    <string name="please_enter_the_workout_description">Please enter the workout description</string>
+    <string name="workout_description">Workout description</string>
+    <string name="add">Add</string>
+    <string name="please_enter_the_workout_name">please_enter_your_workout_name</string>
+    <string name="add_button">add_button</string>
+    <string name="button">Button</string>
+    <string name="string_button" />
+    <string name="List">add</string>
+    <string name="add_button2">but</string>
+    <string name="textview">TextView</string>
+    <string name="sets">Sets</string>
+    <string name="update">update</string>
+    <string name="Pushups">Pushups</string>
+    <string name="wname">Name</string>
+    <string name="workout_des">Workout Description</string>
+    <string name="slider">slider</string>
+    <string name="wdate">date</string>
+    <string name="date">Date</string>
+    <string name="work_workout_time">time</string>
+    <string name="time">Time</string>
+    <string name="workout">Workout</string>
+    <string name="workout_text_sets">TextView</string>
+    <string name="spinner">spinner</string>
+    <string name="workout_text_reps">workout_text_reps</string>
+    <string name="reps">Reps</string>
+    <string name="WorkoutPage" />
+    <string name="slider_value">TextView</string>
+    <string name="sets_value">value</string>
+    <string name="_0">0</string>
+    <string name="picbut">PicBut</string>
+    <string name="total_time">Total Time :</string>
+    <string name="sets_display">Sets :</string>
+    <string name="date_display" />
+    <string name="reps_display">Reps :</string>
+
+    <string-array name="workouts">
+        <item>Pushups</item>
+        <item>Burpees</item>
+        <item>Squats</item>
+        <item>Knee Lifts</item>
+        <item>Calf Raises</item>
+        <item>Mountain Climbers</item>
+        <item>Crunches</item>
+        <item>Planks</item>
+        <item>Leg Lifts</item>
+    </string-array>
+
+    <!--    Yikang-->
+    <!--/===================HEADER==================================/-->
+    <string name="tools_title">TOOLS</string>
+    <string name="back_button">Back Button</string>
+    <!--/================NAVIGATION BAR============================/-->
+    <string name="calculator">BMI Tools</string>
+    <string name="calculate">Calculate</string>
+    <!--/=================BMI Calculator CONTENT=============================/-->
+    <string name="weight_hint"> KG</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="height_hint">M</string>
+    <string name="bmi_quote">Your Final BMI is </string>
+    <string name="bmi_hint">kg/m²</string>
+    <string name="bmi_result">%s </string>
+    <string name="bmi_sentence_1">Your BMI level is</string>
+    <string name="bmi_sentence">%s</string>
+    <string name="unsatisfied">  Unsatisfied  </string>
+    <string name="moderate">  Moderate  </string>
+    <string name="satisfied">  Satisfied  </string>
+    <string name="timer_button">Timer</string>
+    <string name="reminder_button">Reminder</string>
+    <!--/=================Timer CONTENT=============================/-->
+    <string name="ten_seconds">10 S</string>
+    <string name="thirty_seconds">30 S</string>
+    <string name="sixty_seconds">60 S</string>
+    <string name="custom_seconds">Custom</string>
+    <string name="zero_second">00:00:00</string>
+    <string name="zero_second_1">%s</string>
+    <string name="start">Start</string>
+    <string name="stop">STOP</string>
+    <string name="reset">RESET</string>
+    <string name="timer_quote"> Total Time Used : </string>
+    <string name="time_used_1">0</string>
+    <string name="time_used">%d</string>
+    <string name="save_button">Save to My Profile</string>
+    <!--/=================Reminder CONTENT=============================/-->
+    <string name="status_title">Status : </string>
+    <string name="completed_text">Completed</string>
+    <string name="progress_text">In Progress</string>
+    <!--/=================Workout card=============================/-->
+    <string name="workout_title"><u>Workout</u></string>
+    <string name="calories_goal">Calories Goal :</string>
+    <string name="kcal_text">kCal</string>
+    <string name="calories_amount">%d</string>
+    <string name="calories_exhaust">Calories Exhausted :</string>
+    <string name="exhausted_amount">%d</string>
+    <string name="workout_today">Total Workout Time Today :</string>
+    <string name="workout_time">%d</string>
+    <string name="seconds_word">S</string>
+    <!--/=================Sleep card=============================/-->
+    <string name="sleep_title"><u>Sleep</u></string>
+    <string name="sleep_duration_title">Sleep Goal :</string>
+    <string name="sleep_duration">%d</string>
+    <string name="hours_text">H</string>
+    <string name="sleep_time_title">Sleep Time :</string>
+    <string name="sleep_time">%s</string>
+    <string name="wakeUp1"> Wake Up Time :</string>
+    <string name="wakeUpField">%s</string>
+    <string name="sleepStatusSuccess">Success</string>
+    <string name="sleepStatusFail">Fail</string>
+
+    <!--/=================Water card=============================/-->
+    <string name="water_title"><u>Water Intake</u></string>
+    <string name="water_goal">Goal : </string>
+    <string name="ml_text">ml</string>
+    <string name="water_amount">%d</string>
+    <string name="goal_remain">Water Intake : </string>
+    <string name="intake_amount">%d</string>
+    <string name="water_intake_time">Next water intake in </string>
+    <string name="time_field_edit">%s</string>
+
+
+<!--    Chi Heen-->
+    <string name="food_plan_title">Select Food Plan</string>
+    <string name="breakfast_title">Breakfast 🥛</string>
+    <string name="lunch_title">Lunch 🥣</string>
+    <string name="dinner_title">Dinner 🍜</string>
+    <string name="newFoodPlanPageTitle">New Food Plan</string>
+
+</resources>

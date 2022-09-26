@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:textAlignment="center"
+        tools:context=".Timers"
+        >
+
+        <!---                                                                    HEADER START                                                       -->
+
+
+        <Button
+            android:id="@+id/stop_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/stop"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/start_button" />
+
+        <!---                                                                    BUTTON TABS                                                       -->
+
+        <TextView
+            android:id="@+id/tools_title_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/mitr"
+            android:text="Timer"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/back_button_timer"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/back_button_timer"
+            android:layout_width="54dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="324dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/back_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="?attr/homeAsUpIndicator"
+            app:tint="#000000"
+            tools:ignore="RedundantDescriptionCheck" />
+
+        <Button
+            android:id="@+id/bmi_button_timer"
+            android:layout_width="110dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#6804ec"
+            android:contentDescription="@string/calculator"
+            android:drawableLeft="@drawable/ic_baseline_calculate_24"
+            android:text="@string/calculator"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:cornerRadius="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/back_button_timer" />
+
+        <Button
+            android:id="@+id/timer_button_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#A2C7FF"
+            android:text="@string/timer_button"
+            android:textSize="12sp"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/timer"
+            app:layout_constraintStart_toEndOf="@+id/bmi_button_timer"
+            app:layout_constraintTop_toBottomOf="@+id/back_button_timer" />
+
+        <Button
+            android:id="@+id/reminder_button_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/reminder_button"
+            android:textSize="12sp"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/reminder"
+            app:layout_constraintStart_toEndOf="@+id/timer_button_timer"
+            app:layout_constraintTop_toBottomOf="@+id/back_button_timer" />
+        <!---                                                                    HEADER END                                                        -->
+
+
+
+        <Button
+            android:id="@+id/thirty_button"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/thirty_seconds"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/ten_button"
+            app:layout_constraintTop_toBottomOf="@+id/timer_button_timer" />
+
+        <Button
+            android:id="@+id/sixty_button"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sixty_seconds"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/thirty_button"
+            app:layout_constraintTop_toBottomOf="@+id/timer_button_timer" />
+
+        <Button
+            android:id="@+id/custom_button"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/custom_seconds"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/sixty_button"
+            app:layout_constraintTop_toBottomOf="@+id/timer_button_timer" />
+
+        <Button
+            android:id="@+id/ten_button"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ten_seconds"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timer_button_timer" />
+
+        <TextView
+            android:id="@+id/seconds_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/zero_second"
+            android:textColor="#000000"
+            android:textSize="80sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/thirty_button" />
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/start"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seconds_text" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/reset"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/stop_button" />
+
+        <TextView
+            android:id="@+id/time_used_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/timer_quote"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reset_button" />
+
+        <TextView
+            android:id="@+id/seconds_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/time_used"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintStart_toEndOf="@+id/time_used_title"
+            app:layout_constraintTop_toBottomOf="@+id/reset_button" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/save_button"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/time_used_title" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/seconds_word"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintStart_toEndOf="@+id/seconds_field"
+            app:layout_constraintTop_toBottomOf="@+id/reset_button" />
+
+        <View
+            android:id="@+id/divider_3"
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="44dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/font/alex_brush.xml" value="0.39076923076923076" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/font/allerta.xml" value="0.39076923076923076" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/font/mitr.xml" value="0.39076923076923076" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/activity_add_new_food_plan.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/activity_bmicalculator.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/activity_main.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/activity_main2.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/activity_reminder.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/activity_timers.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/activity_workout.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/card_cell.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/custom_row.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/deletepage.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/deletepagedetails.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/firstpage.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/foodplandetails.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/foodplanmain.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/fragment_add2.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/fragment_list2.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/fragment_update.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/home.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/login.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/newfoodplan.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/selectedpage.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/selectedplandetails.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/signup.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/singlecolumn.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/usersetting.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/layout/workout_details.xml" value="0.2128623188405797" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/menu/delete_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.218" />
+        <entry key="..\:/TARUC Mobile 202207/TanChekPing/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.218" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/button_login.xml" value="0.1" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/custom_button.xml" value="0.1" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/home_bg.xml" value="0.1005" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.216" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2015" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_foodplan.xml" value="0.1835" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_home.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_local_drink_24.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_lock.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_sentiment_satisfied_24.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_sentiment_very_dissatisfied_24.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_sentiment_very_satisfied_24.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_tools.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_usernav.xml" value="0.1" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_view_list_24.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_wb_sunny_24.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_baseline_workout.xml" value="0.1235" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1835" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/font/mitr.xml" value="0.3046875" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/FirstPage.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_add_new_food_plan.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_bmicalculator.xml" value="0.27309782608695654" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_main2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_main3.xml" value="0.25" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_main4.xml" value="0.1" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_main5.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_main6.xml" value="0.2" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_main7.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_main8.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_reminder.xml" value="0.27309782608695654" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_timers.xml" value="0.27309782608695654" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/activity_workout.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/card_cell.xml" value="0.27309782608695654" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/custom_row.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/deletepage.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/deletepagedetails.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/firstpage.xml" value="0.18342391304347827" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/foodplandetails.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/foodplanmain.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/fragment_add2.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/fragment_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/fragment_list2.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/fragment_update.xml" value="0.2" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/fragment_user.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/home.xml" value="0.264" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/login.xml" value="0.22509057971014493" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/newfoodplan.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/selectedpage.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/selectedplandetails.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/setage.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/setcontact.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/setpassword.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/signup.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/singlecolumn.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/usersetting.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/layout/workout_details.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/menu/delete_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/menu/dsads.xml" value="0.1" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Tan Chek Ping/AndroidStudioProjects/KIAH/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/User/Downloads/TanChekPing/app/src/main/res/layout/activity_main2.xml" value="0.1661600810536981" />
+        <entry key="..\:/Users/User/Downloads/TanChekPing/app/src/main/res/menu/menu.xml" value="0.3364102564102564" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
